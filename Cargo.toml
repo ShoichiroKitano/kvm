@@ -1,0 +1,11 @@
+[package]
+name = "kvm"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.x11_dl]
+package = "x11-dl"
+version = "2.21.0"
+
